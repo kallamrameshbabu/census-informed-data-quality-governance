@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the manuscript below. A software-specific version and DOI will be added once archived on Zenodo."
+title: "Census-Informed Data Quality Governance for Lakehouse Data Products: Reproducibility Artifact"
+type: software
+authors:
+  - family-names: Kallam
+    given-names: Ramesh Babu
+    orcid: "https://orcid.org/0009-0008-5220-1775"
+    affiliation: "Independent Researcher, Cloud Data Engineering"
+repository-code: "https://github.com/kallamrameshbabu/REPO_NAME_PLACEHOLDER"
+license: Apache-2.0
+version: 1.0.0
+date-released: "2026-08-05"
+keywords:
+  - data quality
+  - data governance
+  - lakehouse
+  - rule authorship
+  - defect injection
+  - evaluation methodology
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Census-Informed Data Quality Governance for Lakehouse Data Products: Rule Authorship, Evaluation Bias, and Downstream Cost"
+  authors:
+    - family-names: Kallam
+      given-names: Ramesh Babu
+      orcid: "https://orcid.org/0009-0008-5220-1775"
+  journal: "Information Systems"
+  publisher:
+    name: Elsevier
+  year: 2026
+  status: submitted
