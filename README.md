@@ -3,7 +3,7 @@
 Reproducibility artifact for the manuscript *"Census-Informed Data Quality
 Governance for Lakehouse Data Products: Rule Authorship, Evaluation Bias,
 and Downstream Cost,"* submitted to *Information Systems* (Elsevier).
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21813665.svg)](https://doi.org/10.5281/zenodo.21813665)
 ## What this is
 
 A portable data-quality pipeline evaluated on three public corpora, testing
