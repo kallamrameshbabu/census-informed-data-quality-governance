@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software or its results, please cite the manuscript below. A software-specific version and DOI will be added once archived on Zenodo."
+message: "If you use this software or its results, please cite the archived artifact and the manuscript below."
 title: "Census-Informed Data Quality Governance for Lakehouse Data Products: Reproducibility Artifact"
 type: software
 authors:
@@ -7,7 +7,11 @@ authors:
     given-names: Ramesh Babu
     orcid: "https://orcid.org/0009-0008-5220-1775"
     affiliation: "Independent Researcher, Cloud Data Engineering"
-repository-code: "https://github.com/kallamrameshbabu/REPO_NAME_PLACEHOLDER"
+repository-code: "https://github.com/kallamrameshbabu/census-informed-data-quality-governance"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21813665"
+    description: "Archived reproducibility artifact"
 license: Apache-2.0
 version: 1.0.0
 date-released: "2026-08-05"
