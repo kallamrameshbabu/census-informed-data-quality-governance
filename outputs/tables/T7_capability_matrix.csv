@@ -1,0 +1,6 @@
+tool,domain,range,not_null,uniqueness,cross_field,per_cell_output,in_memory_dataframe
+ZTLF (ours),yes,yes,yes,yes,yes,yes,yes
+Pandera,yes,yes,yes,yes,yes,yes,yes
+GreatExpectations,yes,yes,yes,yes,partial,yes,yes
+SodaCore 4.x,yes,yes,yes,yes,yes,aggregate only,no (SQL source required)
+PyDeequ,yes,yes,yes,yes,partial,constraint level only,no (Spark required)

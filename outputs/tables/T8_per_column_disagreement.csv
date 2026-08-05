@@ -1,0 +1,23 @@
+column,ZTLF (ours),Pandera,GreatExpectations,SodaCore/DuckDB,dataset
+age,4963,4963,4963,4963,bank_marketing_full
+balance,4984,4984,0,4984,bank_marketing_full
+duration,4946,4946,4946,4946,bank_marketing_full
+education,3984,3984,3984,3984,bank_marketing_full
+job,4962,4962,4962,4962,bank_marketing_full
+marital,4964,4964,4964,4964,bank_marketing_full
+month,3975,3975,3975,3975,bank_marketing_full
+gender,10177,10177,10177,10177,diabetes_130us
+insulin,10177,10177,10177,10177,diabetes_130us
+medical_specialty,49949,49949,0,49949,diabetes_130us
+metformin,10177,10177,10177,10177,diabetes_130us
+num_lab_procedures,10177,10177,0,10177,diabetes_130us
+num_medications,10177,10177,10177,10177,diabetes_130us
+payer_code,40256,40256,0,40256,diabetes_130us
+race,2273,2273,0,2273,diabetes_130us
+readmitted,10177,10177,10177,10177,diabetes_130us
+time_in_hospital,10177,10177,10177,10177,diabetes_130us
+weight,98569,98569,0,98569,diabetes_130us
+Customer ID,353802,353802,117290,353802,online_retail_ii
+Description,121841,121841,117377,121841,online_retail_ii
+Price,13531,13531,13531,13531,online_retail_ii
+Quantity,140224,117516,22708,140224,online_retail_ii

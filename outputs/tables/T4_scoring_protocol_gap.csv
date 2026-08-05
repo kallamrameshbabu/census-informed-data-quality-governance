@@ -1,0 +1,6 @@
+,precision,precision,recall,recall,f1,f1,false_positives,false_positives
+scoring,naive,restricted,naive,restricted,naive,restricted,naive,restricted
+dataset,,,,,,,,
+bank_marketing_full,1.0,1.0,0.7415,0.741,0.8515,0.8512,0.0,0.0
+diabetes_130us,0.2648,1.0,0.7802,0.7797,0.3628,0.8762,190778.1143,0.0
+online_retail_ii,0.5166,1.0,0.5528,0.5302,0.4942,0.6929,264651.6429,0.0

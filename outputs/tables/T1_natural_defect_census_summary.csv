@@ -1,0 +1,25 @@
+dataset,defect_class,n_rows,n_affected_cells,n_affected_columns
+bank_marketing_small,D2 Missingness,4521,5254,4
+bank_marketing_small,D3 Uniqueness,4521,0,0
+bank_marketing_small,D4 Domain,4521,0,0
+bank_marketing_small,D5 Range,4521,0,0
+bank_marketing_small,D6 Consistency,4521,0,0
+bank_marketing_small,D7 Representation,4521,0,0
+bank_marketing_full,D2 Missingness,45211,52124,4
+bank_marketing_full,D3 Uniqueness,45211,0,0
+bank_marketing_full,D4 Domain,45211,0,0
+bank_marketing_full,D5 Range,45211,0,0
+bank_marketing_full,D6 Consistency,45211,0,0
+bank_marketing_full,D7 Representation,45211,0,0
+diabetes_130us,D2 Missingness,101766,192849,7
+diabetes_130us,D3 Uniqueness,101766,30248,1
+diabetes_130us,D4 Domain,101766,0,0
+diabetes_130us,D5 Range,101766,0,0
+diabetes_130us,D6 Consistency,101766,19308,1
+diabetes_130us,D7 Representation,101766,0,0
+online_retail_ii,D2 Missingness,1067371,247481,2
+online_retail_ii,D3 Uniqueness,1067371,12133,1
+online_retail_ii,D4 Domain,1067371,0,0
+online_retail_ii,D5 Range,1067371,29211,2
+online_retail_ii,D6 Consistency,1067371,9665,3
+online_retail_ii,D7 Representation,1067371,0,0

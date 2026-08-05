@@ -1,0 +1,17 @@
+dataset,theta,n_rules,admitted,retained_pct,auc,auc_sd
+bank_marketing_full,0,0,(none),49.978,0.9279,0.0009
+bank_marketing_full,1,1,job,49.642,0.9266,0.0007
+bank_marketing_full,5,2,job;education,47.722,0.9277,0.0009
+bank_marketing_full,10,2,job;education,47.722,0.9277,0.0009
+bank_marketing_full,20,2,job;education,47.722,0.9277,0.0009
+bank_marketing_full,30,3,job;education;contact,34.216,0.9041,0.0025
+bank_marketing_full,50,3,job;education;contact,34.216,0.9041,0.0025
+bank_marketing_full,100,4,job;education;contact;poutcome,8.672,0.8531,0.0048
+diabetes_130us,0,0,(none),47.804,0.6749,0.0019
+diabetes_130us,1,0,(none),47.804,0.6749,0.0019
+diabetes_130us,5,1,race,46.73,0.6746,0.0008
+diabetes_130us,10,1,race,46.73,0.6746,0.0008
+diabetes_130us,20,1,race,46.73,0.6746,0.0008
+diabetes_130us,30,1,race,46.73,0.6746,0.0008
+diabetes_130us,50,3,race;payer_code;medical_specialty,12.724,0.6218,0.0061
+diabetes_130us,100,4,race;weight;payer_code;medical_specialty,0.482,0.5237,0.0097

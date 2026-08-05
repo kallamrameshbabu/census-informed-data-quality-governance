@@ -1,0 +1,14 @@
+dataset,rate,model,pct_train_retained,pct_train_retained,roc_auc,roc_auc
+,,,census_informed,naive,census_informed,naive
+bank_marketing_full,0.05,hgb,68.2,12.3,0.9315,0.8585
+bank_marketing_full,0.05,logreg,68.2,12.3,0.9059,0.844
+bank_marketing_full,0.1,hgb,47.7,8.7,0.9277,0.8531
+bank_marketing_full,0.1,logreg,47.7,8.7,0.905,0.8428
+bank_marketing_full,0.2,hgb,22.1,4.0,0.9178,0.8428
+bank_marketing_full,0.2,logreg,22.1,4.0,0.9025,0.8351
+diabetes_130us,0.05,hgb,68.3,0.7,0.6775,0.527
+diabetes_130us,0.05,logreg,68.3,0.7,0.6693,0.5443
+diabetes_130us,0.1,hgb,46.7,0.5,0.6746,0.5237
+diabetes_130us,0.1,logreg,46.7,0.5,0.6686,0.5434
+diabetes_130us,0.2,hgb,20.5,0.2,0.6636,0.5245
+diabetes_130us,0.2,logreg,20.5,0.2,0.6627,0.5238

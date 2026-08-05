@@ -1,0 +1,13 @@
+dataset,tool,precision,recall,f1,f1_sd,seconds,detections
+bank_marketing_full,GreatExpectations,1.0,0.6289,0.7721,0.0043,5.4995,40633.32
+bank_marketing_full,Pandera,1.0,0.7422,0.852,0.0044,3.5654,47899.36
+bank_marketing_full,SodaCore/DuckDB,1.0,0.7422,0.852,0.0044,0.5185,47899.36
+bank_marketing_full,ZTLF (ours),1.0,0.7422,0.852,0.0044,0.2826,47899.36
+diabetes_130us,GreatExpectations,1.0,0.6684,0.8012,0.0002,23.412,80599.2
+diabetes_130us,Pandera,1.0,0.7798,0.8763,0.0002,17.4546,285079.4
+diabetes_130us,SodaCore/DuckDB,1.0,0.7798,0.8763,0.0002,1.6212,285079.4
+diabetes_130us,ZTLF (ours),1.0,0.7798,0.8763,0.0002,0.7748,285079.4
+online_retail_ii,GreatExpectations,1.0,0.3204,0.4853,0.0058,23.189,381572.8
+online_retail_ii,Pandera,1.0,0.4954,0.6625,0.0067,60.732,765005.68
+online_retail_ii,SodaCore/DuckDB,1.0,0.4954,0.6625,0.0067,4.1582,787299.36
+online_retail_ii,ZTLF (ours),1.0,0.4954,0.6625,0.0067,3.2918,787299.36

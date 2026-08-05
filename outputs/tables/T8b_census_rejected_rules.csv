@@ -1,0 +1,6 @@
+dataset,rejected_rule,natural_missing_pct
+bank_marketing_full,not_null(contact),28.8
+bank_marketing_full,not_null(poutcome),81.75
+diabetes_130us,not_null(weight),96.86
+diabetes_130us,not_null(payer_code),39.56
+diabetes_130us,not_null(medical_specialty),49.08
