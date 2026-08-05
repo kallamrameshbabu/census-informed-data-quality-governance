@@ -17,7 +17,7 @@ weaknesses, identified through subsequent review:
 
 **This work has been superseded by a complete, independent rebuild:**
 
-➡️ **https://github.com/kallamrameshbabu/REPO_NAME_PLACEHOLDER**
+➡️ **https://github.com/kallamrameshbabu/ztlf-lakehouse-framework/tree/main** 
 
 The new study:
 - Evaluates three public corpora (45,211 / 101,766 / ~1,067,371 records)
