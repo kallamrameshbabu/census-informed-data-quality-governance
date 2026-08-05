@@ -1,0 +1,19 @@
+# Pinned to match outputs/logs/environment_manifest.json from the runs
+# reported in the manuscript. Install with:
+#   pip install -r requirements.txt --break-system-packages
+# (Colab requires --break-system-packages; a local venv does not.)
+
+pyspark==3.5.3
+delta-spark==3.2.1
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+matplotlib==3.9.2
+duckdb
+pandera==0.32.1
+great_expectations==1.19.1
+soda-core==4.19.0
+
+# Java: OpenJDK 11 (installed separately; see notebooks/ZTLF_00_environment.ipynb)
+# PyDeequ requires a matching Spark/JVM stack and is treated as unavailable
+# for cell-level scoring in this study; see src/ztlf_baselines.py.
