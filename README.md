@@ -73,7 +73,7 @@ the exact versions, JDK, and a fixed random seed used for that run.
 | [Diabetes 130-US Hospitals](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008) | 101,766 | CC BY 4.0 | Yes |
 | [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) | 1,067,371 | CC BY 4.0 | No |
 
-Due to dataset size and repository storage considerations, Online Retail II is not included in this repository. Please download them directly from the UCI Machine Learning Repository and place them in the data/raw/ directory before running the notebooks.
+Due to dataset size and repository storage considerations, Online Retail II is not included in this repository. Please download it directly from the UCI Machine Learning Repository and place them in the data/raw/ directory before running the notebooks.
 
 SHA-256 hashes of the datasets are provided for verification.
 
