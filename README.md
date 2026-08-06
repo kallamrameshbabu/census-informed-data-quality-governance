@@ -71,15 +71,7 @@ the exact versions, JDK, and a fixed random seed used for that run.
 |---|---|---|---|
 | [Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing) | 45,211 | CC BY 4.0 | Yes |
 | [Diabetes 130-US Hospitals](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008) | 101,766 | CC BY 4.0 | Yes |
-| [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) | 1,067,371 | Non-commercial use only | **No — see below** |
-
-Online Retail II is distributed by its depositor for non-commercial use only
-and is **not redistributed in this repository**. Download it directly from
-the UCI Machine Learning Repository and place it at
-`data/raw/online_retail_II.csv` (or `.xlsx`; notebook 01 converts it).
-`data/raw/checksums.txt` records the SHA-256 digest of the exact file used to
-produce the results in the manuscript, so you can confirm you have the same
-data.
+| [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) | 1,067,371 | CC BY 4.0 | Yes |
 
 ## Repository structure
 
