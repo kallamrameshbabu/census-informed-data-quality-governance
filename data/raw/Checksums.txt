@@ -1,0 +1,43 @@
+# SHA-256 checksums of input data files
+
+Computed with `sha256sum <file>` (Linux/Colab) or `Get-FileHash <file> -Algorithm SHA256` (Windows).
+
+## Bank Marketing (CC BY 4.0, redistributed in this repository)
+
+```
+dc8d576e9bda0f41ee891251bd84bab9a39ce576cba715aac08adc2374a01fde  bank.csv
+d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d  bankfull.csv
+```
+
+## Diabetes 130-US Hospitals (CC BY 4.0, redistributed in this repository)
+
+```
+0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df  diabetic_data.csv
+```
+
+## Online Retail II (non-commercial use only, NOT redistributed)
+
+Not computed here — this file must be downloaded directly from the UCI
+Machine Learning Repository (https://archive.ics.uci.edu/dataset/502) and
+its checksum recorded locally by the notebook. `ZTLF_01_ingestion_and_census.ipynb`
+computes and writes this digest automatically to
+`outputs/tables/T0_dataset_provenance.csv` when it runs, which is the
+authoritative record for whichever copy produced the manuscript's results.
+
+## Important note on these three checksums
+
+These digests were computed against the copies of `bank.csv`, `bankfull.csv`,
+and `diabetic_data.csv` used during development of this artifact. Before
+relying on them:
+
+1. Confirm they match the files actually committed to this repository —
+   run `sha256sum data/raw/*.csv` yourself and compare.
+2. Bank Marketing is distributed with a semicolon delimiter and quoted
+   fields; a file that has been re-saved with a comma delimiter by
+   spreadsheet software will produce a different digest even though the
+   data is unchanged. If your checksum does not match, check the delimiter
+   before assuming the data differs.
+3. The `T0_dataset_provenance.csv` table in `outputs/tables/` is generated
+   directly by the notebooks at run time and is the authoritative source
+   for exactly which file produced the manuscript's numbers. This file is
+   a convenience reference, not a substitute for that table.
