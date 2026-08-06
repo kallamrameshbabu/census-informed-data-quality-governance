@@ -1,0 +1,376 @@
+dataset,tool,rate,seed,status,seconds,precision,recall,f1,n_detected
+bank_marketing_full,ZTLF (ours),0.01,20260803,ok,0.166,1.0,0.736006,0.84793,3027
+bank_marketing_full,Pandera,0.01,20260803,ok,0.602,1.0,0.736006,0.84793,3027
+bank_marketing_full,GreatExpectations,0.01,20260803,ok,3.327,1.0,0.624297,0.768698,2570
+bank_marketing_full,SodaCore/DuckDB,0.01,20260803,ok,0.295,1.0,0.736006,0.84793,3027
+bank_marketing_full,PyDeequ,0.01,20260803,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.01,20260804,ok,0.16,1.0,0.73643,0.848212,3024
+bank_marketing_full,Pandera,0.01,20260804,ok,0.604,1.0,0.73643,0.848212,3024
+bank_marketing_full,GreatExpectations,0.01,20260804,ok,4.217,1.0,0.623961,0.768443,2564
+bank_marketing_full,SodaCore/DuckDB,0.01,20260804,ok,0.487,1.0,0.73643,0.848212,3024
+bank_marketing_full,PyDeequ,0.01,20260804,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.01,20260805,ok,0.333,1.0,0.733839,0.846491,3014
+bank_marketing_full,Pandera,0.01,20260805,ok,1.086,1.0,0.733839,0.846491,3014
+bank_marketing_full,GreatExpectations,0.01,20260805,ok,3.658,1.0,0.621694,0.766722,2556
+bank_marketing_full,SodaCore/DuckDB,0.01,20260805,ok,0.325,1.0,0.733839,0.846491,3014
+bank_marketing_full,PyDeequ,0.01,20260805,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.01,20260806,ok,0.161,1.0,0.733513,0.846274,3011
+bank_marketing_full,Pandera,0.01,20260806,ok,0.601,1.0,0.733513,0.846274,3011
+bank_marketing_full,GreatExpectations,0.01,20260806,ok,3.529,1.0,0.620495,0.765809,2550
+bank_marketing_full,SodaCore/DuckDB,0.01,20260806,ok,0.31,1.0,0.733513,0.846274,3011
+bank_marketing_full,PyDeequ,0.01,20260806,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.01,20260807,ok,0.161,1.0,0.73371,0.846405,3006
+bank_marketing_full,Pandera,0.01,20260807,ok,0.616,1.0,0.73371,0.846405,3006
+bank_marketing_full,GreatExpectations,0.01,20260807,ok,4.915,1.0,0.621834,0.766828,2551
+bank_marketing_full,SodaCore/DuckDB,0.01,20260807,ok,0.541,1.0,0.73371,0.846405,3006
+bank_marketing_full,PyDeequ,0.01,20260807,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.05,20260803,ok,0.275,1.0,0.734323,0.846812,15614
+bank_marketing_full,Pandera,0.05,20260803,ok,1.281,1.0,0.734323,0.846812,15614
+bank_marketing_full,GreatExpectations,0.05,20260803,ok,4.146,1.0,0.622293,0.767177,13245
+bank_marketing_full,SodaCore/DuckDB,0.05,20260803,ok,0.315,1.0,0.734323,0.846812,15614
+bank_marketing_full,PyDeequ,0.05,20260803,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.05,20260804,ok,0.201,1.0,0.737153,0.848691,15655
+bank_marketing_full,Pandera,0.05,20260804,ok,1.294,1.0,0.737153,0.848691,15655
+bank_marketing_full,GreatExpectations,0.05,20260804,ok,4.913,1.0,0.625343,0.769491,13292
+bank_marketing_full,SodaCore/DuckDB,0.05,20260804,ok,0.611,1.0,0.737153,0.848691,15655
+bank_marketing_full,PyDeequ,0.05,20260804,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.05,20260805,ok,0.348,1.0,0.738999,0.849913,15737
+bank_marketing_full,Pandera,0.05,20260805,ok,1.355,1.0,0.738999,0.849913,15737
+bank_marketing_full,GreatExpectations,0.05,20260805,ok,4.106,1.0,0.626365,0.770264,13354
+bank_marketing_full,SodaCore/DuckDB,0.05,20260805,ok,0.344,1.0,0.738999,0.849913,15737
+bank_marketing_full,PyDeequ,0.05,20260805,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.05,20260806,ok,0.185,1.0,0.736991,0.848584,15676
+bank_marketing_full,Pandera,0.05,20260806,ok,1.326,1.0,0.736991,0.848584,15676
+bank_marketing_full,GreatExpectations,0.05,20260806,ok,4.739,1.0,0.62399,0.768465,13285
+bank_marketing_full,SodaCore/DuckDB,0.05,20260806,ok,0.529,1.0,0.736991,0.848584,15676
+bank_marketing_full,PyDeequ,0.05,20260806,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.05,20260807,ok,0.338,1.0,0.737604,0.84899,15648
+bank_marketing_full,Pandera,0.05,20260807,ok,1.658,1.0,0.737604,0.84899,15648
+bank_marketing_full,GreatExpectations,0.05,20260807,ok,4.169,1.0,0.624152,0.768588,13257
+bank_marketing_full,SodaCore/DuckDB,0.05,20260807,ok,0.343,1.0,0.737604,0.84899,15648
+bank_marketing_full,PyDeequ,0.05,20260807,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.1,20260803,ok,0.202,1.0,0.740031,0.850595,32778
+bank_marketing_full,Pandera,0.1,20260803,ok,2.308,1.0,0.740031,0.850595,32778
+bank_marketing_full,GreatExpectations,0.1,20260803,ok,6.88,1.0,0.626851,0.770631,27794
+bank_marketing_full,SodaCore/DuckDB,0.1,20260803,ok,0.586,1.0,0.740031,0.850595,32778
+bank_marketing_full,PyDeequ,0.1,20260803,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.1,20260804,ok,0.235,1.0,0.739525,0.850261,32769
+bank_marketing_full,Pandera,0.1,20260804,ok,2.288,1.0,0.739525,0.850261,32769
+bank_marketing_full,GreatExpectations,0.1,20260804,ok,4.598,1.0,0.627118,0.770833,27814
+bank_marketing_full,SodaCore/DuckDB,0.1,20260804,ok,0.368,1.0,0.739525,0.850261,32769
+bank_marketing_full,PyDeequ,0.1,20260804,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.1,20260805,ok,0.389,1.0,0.740234,0.850729,32769
+bank_marketing_full,Pandera,0.1,20260805,ok,3.646,1.0,0.740234,0.850729,32769
+bank_marketing_full,GreatExpectations,0.1,20260805,ok,4.634,1.0,0.627382,0.771032,27806
+bank_marketing_full,SodaCore/DuckDB,0.1,20260805,ok,0.359,1.0,0.740234,0.850729,32769
+bank_marketing_full,PyDeequ,0.1,20260805,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.1,20260806,ok,0.241,1.0,0.739741,0.850404,32778
+bank_marketing_full,Pandera,0.1,20260806,ok,2.28,1.0,0.739741,0.850404,32778
+bank_marketing_full,GreatExpectations,0.1,20260806,ok,5.934,1.0,0.626759,0.770562,27800
+bank_marketing_full,SodaCore/DuckDB,0.1,20260806,ok,0.616,1.0,0.739741,0.850404,32778
+bank_marketing_full,PyDeequ,0.1,20260806,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.1,20260807,ok,0.23,1.0,0.740451,0.850872,32824
+bank_marketing_full,Pandera,0.1,20260807,ok,2.35,1.0,0.740451,0.850872,32824
+bank_marketing_full,GreatExpectations,0.1,20260807,ok,4.886,1.0,0.626472,0.770345,27802
+bank_marketing_full,SodaCore/DuckDB,0.1,20260807,ok,0.361,1.0,0.740451,0.850872,32824
+bank_marketing_full,PyDeequ,0.1,20260807,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.2,20260803,ok,0.473,1.0,0.746172,0.854638,71558
+bank_marketing_full,Pandera,0.2,20260803,ok,5.562,1.0,0.746172,0.854638,71558
+bank_marketing_full,GreatExpectations,0.2,20260803,ok,5.655,1.0,0.631733,0.774309,60646
+bank_marketing_full,SodaCore/DuckDB,0.2,20260803,ok,0.429,1.0,0.746172,0.854638,71558
+bank_marketing_full,PyDeequ,0.2,20260803,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.2,20260804,ok,0.449,1.0,0.747761,0.855679,71610
+bank_marketing_full,Pandera,0.2,20260804,ok,4.897,1.0,0.747761,0.855679,71610
+bank_marketing_full,GreatExpectations,0.2,20260804,ok,5.673,1.0,0.633931,0.775958,60769
+bank_marketing_full,SodaCore/DuckDB,0.2,20260804,ok,0.459,1.0,0.747761,0.855679,71610
+bank_marketing_full,PyDeequ,0.2,20260804,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.2,20260805,ok,0.257,1.0,0.747357,0.855415,71515
+bank_marketing_full,Pandera,0.2,20260805,ok,4.421,1.0,0.747357,0.855415,71515
+bank_marketing_full,GreatExpectations,0.2,20260805,ok,5.928,1.0,0.633871,0.775913,60714
+bank_marketing_full,SodaCore/DuckDB,0.2,20260805,ok,0.75,1.0,0.747357,0.855415,71515
+bank_marketing_full,PyDeequ,0.2,20260805,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.2,20260806,ok,0.277,1.0,0.74693,0.855135,71686
+bank_marketing_full,Pandera,0.2,20260806,ok,4.472,1.0,0.74693,0.855135,71686
+bank_marketing_full,GreatExpectations,0.2,20260806,ok,6.427,1.0,0.633241,0.775441,60844
+bank_marketing_full,SodaCore/DuckDB,0.2,20260806,ok,0.754,1.0,0.74693,0.855135,71686
+bank_marketing_full,PyDeequ,0.2,20260806,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.2,20260807,ok,0.267,1.0,0.74674,0.85501,71581
+bank_marketing_full,Pandera,0.2,20260807,ok,4.459,1.0,0.74674,0.85501,71581
+bank_marketing_full,GreatExpectations,0.2,20260807,ok,6.476,1.0,0.63305,0.775298,60743
+bank_marketing_full,SodaCore/DuckDB,0.2,20260807,ok,0.803,1.0,0.74674,0.85501,71581
+bank_marketing_full,PyDeequ,0.2,20260807,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.3,20260803,ok,0.3,1.0,0.753083,0.859152,116640
+bank_marketing_full,Pandera,0.3,20260803,ok,6.996,1.0,0.753083,0.859152,116640
+bank_marketing_full,GreatExpectations,0.3,20260803,ok,8.793,1.0,0.638156,0.779115,98940
+bank_marketing_full,SodaCore/DuckDB,0.3,20260803,ok,0.569,1.0,0.753083,0.859152,116640
+bank_marketing_full,PyDeequ,0.3,20260803,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.3,20260804,ok,0.294,1.0,0.751846,0.858347,116522
+bank_marketing_full,Pandera,0.3,20260804,ok,12.429,1.0,0.751846,0.858347,116522
+bank_marketing_full,GreatExpectations,0.3,20260804,ok,6.654,1.0,0.637088,0.778319,98838
+bank_marketing_full,SodaCore/DuckDB,0.3,20260804,ok,0.502,1.0,0.751846,0.858347,116522
+bank_marketing_full,PyDeequ,0.3,20260804,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.3,20260805,ok,0.29,1.0,0.751802,0.858318,116264
+bank_marketing_full,Pandera,0.3,20260805,ok,7.085,1.0,0.751802,0.858318,116264
+bank_marketing_full,GreatExpectations,0.3,20260805,ok,8.0,1.0,0.636937,0.778206,98607
+bank_marketing_full,SodaCore/DuckDB,0.3,20260805,ok,0.882,1.0,0.751802,0.858318,116264
+bank_marketing_full,PyDeequ,0.3,20260805,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.3,20260806,ok,0.296,1.0,0.752622,0.858853,116552
+bank_marketing_full,Pandera,0.3,20260806,ok,7.86,1.0,0.752622,0.858853,116552
+bank_marketing_full,GreatExpectations,0.3,20260806,ok,7.756,1.0,0.637945,0.778958,98896
+bank_marketing_full,SodaCore/DuckDB,0.3,20260806,ok,0.519,1.0,0.752622,0.858853,116552
+bank_marketing_full,PyDeequ,0.3,20260806,unavailable,,,,,0
+bank_marketing_full,ZTLF (ours),0.3,20260807,ok,0.536,1.0,0.751218,0.857938,116226
+bank_marketing_full,Pandera,0.3,20260807,ok,7.658,1.0,0.751218,0.857938,116226
+bank_marketing_full,GreatExpectations,0.3,20260807,ok,7.475,1.0,0.636556,0.777922,98596
+bank_marketing_full,SodaCore/DuckDB,0.3,20260807,ok,0.905,1.0,0.751218,0.857938,116226
+bank_marketing_full,PyDeequ,0.3,20260807,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.01,20260803,ok,0.595,1.0,0.780418,0.876669,198173
+diabetes_130us,Pandera,0.01,20260803,ok,12.353,1.0,0.780418,0.876669,198173
+diabetes_130us,GreatExpectations,0.01,20260803,ok,21.036,1.0,0.66893,0.801627,6108
+diabetes_130us,SodaCore/DuckDB,0.01,20260803,ok,1.139,1.0,0.780418,0.876669,198173
+diabetes_130us,PyDeequ,0.01,20260803,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.01,20260804,ok,1.088,1.0,0.780077,0.876453,198173
+diabetes_130us,Pandera,0.01,20260804,ok,11.035,1.0,0.780077,0.876453,198173
+diabetes_130us,GreatExpectations,0.01,20260804,ok,22.239,1.0,0.668637,0.801417,6108
+diabetes_130us,SodaCore/DuckDB,0.01,20260804,ok,1.192,1.0,0.780077,0.876453,198173
+diabetes_130us,PyDeequ,0.01,20260804,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.01,20260805,ok,0.586,1.0,0.780504,0.876722,198173
+diabetes_130us,Pandera,0.01,20260805,ok,12.408,1.0,0.780504,0.876722,198173
+diabetes_130us,GreatExpectations,0.01,20260805,ok,20.484,1.0,0.669003,0.80168,6108
+diabetes_130us,SodaCore/DuckDB,0.01,20260805,ok,1.212,1.0,0.780504,0.876722,198173
+diabetes_130us,PyDeequ,0.01,20260805,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.01,20260806,ok,0.922,1.0,0.779565,0.87613,198173
+diabetes_130us,Pandera,0.01,20260806,ok,12.546,1.0,0.779565,0.87613,198173
+diabetes_130us,GreatExpectations,0.01,20260806,ok,21.734,1.0,0.668198,0.801102,6108
+diabetes_130us,SodaCore/DuckDB,0.01,20260806,ok,1.824,1.0,0.779565,0.87613,198173
+diabetes_130us,PyDeequ,0.01,20260806,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.01,20260807,ok,0.577,1.0,0.778628,0.875538,198173
+diabetes_130us,Pandera,0.01,20260807,ok,11.989,1.0,0.778628,0.875538,198173
+diabetes_130us,GreatExpectations,0.01,20260807,ok,20.806,1.0,0.667395,0.800524,6108
+diabetes_130us,SodaCore/DuckDB,0.01,20260807,ok,1.217,1.0,0.778628,0.875538,198173
+diabetes_130us,PyDeequ,0.01,20260807,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.05,20260803,ok,0.591,1.0,0.780043,0.876432,226663
+diabetes_130us,Pandera,0.05,20260803,ok,14.008,1.0,0.780043,0.876432,226663
+diabetes_130us,GreatExpectations,0.05,20260803,ok,22.251,1.0,0.668609,0.801397,30528
+diabetes_130us,SodaCore/DuckDB,0.05,20260803,ok,2.092,1.0,0.780043,0.876432,226663
+diabetes_130us,PyDeequ,0.05,20260803,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.05,20260804,ok,0.613,1.0,0.779616,0.876162,226663
+diabetes_130us,Pandera,0.05,20260804,ok,13.898,1.0,0.779616,0.876162,226663
+diabetes_130us,GreatExpectations,0.05,20260804,ok,20.992,1.0,0.668243,0.801134,30528
+diabetes_130us,SodaCore/DuckDB,0.05,20260804,ok,1.219,1.0,0.779616,0.876162,226663
+diabetes_130us,PyDeequ,0.05,20260804,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.05,20260805,ok,1.157,1.0,0.779753,0.876249,226663
+diabetes_130us,Pandera,0.05,20260805,ok,13.376,1.0,0.779753,0.876249,226663
+diabetes_130us,GreatExpectations,0.05,20260805,ok,22.36,1.0,0.66836,0.801218,30528
+diabetes_130us,SodaCore/DuckDB,0.05,20260805,ok,1.164,1.0,0.779753,0.876249,226663
+diabetes_130us,PyDeequ,0.05,20260805,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.05,20260806,ok,0.592,1.0,0.779907,0.876346,226663
+diabetes_130us,Pandera,0.05,20260806,ok,14.296,1.0,0.779907,0.876346,226663
+diabetes_130us,GreatExpectations,0.05,20260806,ok,23.06,1.0,0.668491,0.801312,30528
+diabetes_130us,SodaCore/DuckDB,0.05,20260806,ok,1.773,1.0,0.779907,0.876346,226663
+diabetes_130us,PyDeequ,0.05,20260806,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.05,20260807,ok,0.622,1.0,0.779463,0.876065,226663
+diabetes_130us,Pandera,0.05,20260807,ok,13.756,1.0,0.779463,0.876065,226663
+diabetes_130us,GreatExpectations,0.05,20260807,ok,21.257,1.0,0.668111,0.801039,30528
+diabetes_130us,SodaCore/DuckDB,0.05,20260807,ok,1.228,1.0,0.779463,0.876065,226663
+diabetes_130us,PyDeequ,0.05,20260807,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.1,20260803,ok,0.64,1.0,0.779702,0.876216,262286
+diabetes_130us,Pandera,0.1,20260803,ok,15.746,1.0,0.779702,0.876216,262286
+diabetes_130us,GreatExpectations,0.1,20260803,ok,21.987,1.0,0.668316,0.801186,61062
+diabetes_130us,SodaCore/DuckDB,0.1,20260803,ok,1.303,1.0,0.779702,0.876216,262286
+diabetes_130us,PyDeequ,0.1,20260803,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.1,20260804,ok,0.624,1.0,0.779633,0.876173,262286
+diabetes_130us,Pandera,0.1,20260804,ok,15.652,1.0,0.779633,0.876173,262286
+diabetes_130us,GreatExpectations,0.1,20260804,ok,22.184,1.0,0.668257,0.801144,61062
+diabetes_130us,SodaCore/DuckDB,0.1,20260804,ok,1.253,1.0,0.779633,0.876173,262286
+diabetes_130us,PyDeequ,0.1,20260804,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.1,20260805,ok,0.631,1.0,0.779761,0.876254,262286
+diabetes_130us,Pandera,0.1,20260805,ok,15.767,1.0,0.779761,0.876254,262286
+diabetes_130us,GreatExpectations,0.1,20260805,ok,21.959,1.0,0.668367,0.801223,61062
+diabetes_130us,SodaCore/DuckDB,0.1,20260805,ok,1.481,1.0,0.779761,0.876254,262286
+diabetes_130us,PyDeequ,0.1,20260805,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.1,20260806,ok,0.625,1.0,0.779761,0.876254,262286
+diabetes_130us,Pandera,0.1,20260806,ok,15.818,1.0,0.779761,0.876254,262286
+diabetes_130us,GreatExpectations,0.1,20260806,ok,22.273,1.0,0.668367,0.801223,61062
+diabetes_130us,SodaCore/DuckDB,0.1,20260806,ok,2.084,1.0,0.779761,0.876254,262286
+diabetes_130us,PyDeequ,0.1,20260806,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.1,20260807,ok,0.632,1.0,0.779941,0.876367,262286
+diabetes_130us,Pandera,0.1,20260807,ok,15.64,1.0,0.779941,0.876367,262286
+diabetes_130us,GreatExpectations,0.1,20260807,ok,22.677,1.0,0.668521,0.801333,61062
+diabetes_130us,SodaCore/DuckDB,0.1,20260807,ok,2.058,1.0,0.779941,0.876367,262286
+diabetes_130us,PyDeequ,0.1,20260807,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.2,20260803,ok,0.71,1.0,0.779715,0.876224,333518
+diabetes_130us,Pandera,0.2,20260803,ok,19.803,1.0,0.779715,0.876224,333518
+diabetes_130us,GreatExpectations,0.2,20260803,ok,25.674,1.0,0.668327,0.801194,122118
+diabetes_130us,SodaCore/DuckDB,0.2,20260803,ok,1.469,1.0,0.779715,0.876224,333518
+diabetes_130us,PyDeequ,0.2,20260803,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.2,20260804,ok,1.223,1.0,0.779629,0.87617,333518
+diabetes_130us,Pandera,0.2,20260804,ok,20.107,1.0,0.779629,0.87617,333518
+diabetes_130us,GreatExpectations,0.2,20260804,ok,24.871,1.0,0.668254,0.801142,122118
+diabetes_130us,SodaCore/DuckDB,0.2,20260804,ok,2.332,1.0,0.779629,0.87617,333518
+diabetes_130us,PyDeequ,0.2,20260804,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.2,20260805,ok,0.7,1.0,0.779719,0.876227,333518
+diabetes_130us,Pandera,0.2,20260805,ok,21.654,1.0,0.779719,0.876227,333518
+diabetes_130us,GreatExpectations,0.2,20260805,ok,23.876,1.0,0.66833,0.801197,122118
+diabetes_130us,SodaCore/DuckDB,0.2,20260805,ok,1.456,1.0,0.779719,0.876227,333518
+diabetes_130us,PyDeequ,0.2,20260805,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.2,20260806,ok,0.725,1.0,0.779744,0.876243,333518
+diabetes_130us,Pandera,0.2,20260806,ok,20.433,1.0,0.779744,0.876243,333518
+diabetes_130us,GreatExpectations,0.2,20260806,ok,25.477,1.0,0.668352,0.801212,122118
+diabetes_130us,SodaCore/DuckDB,0.2,20260806,ok,1.425,1.0,0.779744,0.876243,333518
+diabetes_130us,PyDeequ,0.2,20260806,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.2,20260807,ok,0.68,1.0,0.77971,0.876222,333518
+diabetes_130us,Pandera,0.2,20260807,ok,19.947,1.0,0.77971,0.876222,333518
+diabetes_130us,GreatExpectations,0.2,20260807,ok,24.999,1.0,0.668323,0.801191,122118
+diabetes_130us,SodaCore/DuckDB,0.2,20260807,ok,2.206,1.0,0.77971,0.876222,333518
+diabetes_130us,PyDeequ,0.2,20260807,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.3,20260803,ok,0.727,1.0,0.779833,0.876299,404757
+diabetes_130us,Pandera,0.3,20260803,ok,25.956,1.0,0.779833,0.876299,404757
+diabetes_130us,GreatExpectations,0.3,20260803,ok,26.557,1.0,0.668428,0.801267,183180
+diabetes_130us,SodaCore/DuckDB,0.3,20260803,ok,2.226,1.0,0.779833,0.876299,404757
+diabetes_130us,PyDeequ,0.3,20260803,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.3,20260804,ok,1.31,1.0,0.779759,0.876252,404757
+diabetes_130us,Pandera,0.3,20260804,ok,24.45,1.0,0.779759,0.876252,404757
+diabetes_130us,GreatExpectations,0.3,20260804,ok,27.125,1.0,0.668365,0.801221,183180
+diabetes_130us,SodaCore/DuckDB,0.3,20260804,ok,1.515,1.0,0.779759,0.876252,404757
+diabetes_130us,PyDeequ,0.3,20260804,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.3,20260805,ok,0.75,1.0,0.779736,0.876238,404757
+diabetes_130us,Pandera,0.3,20260805,ok,25.394,1.0,0.779736,0.876238,404757
+diabetes_130us,GreatExpectations,0.3,20260805,ok,26.027,1.0,0.668345,0.801207,183180
+diabetes_130us,SodaCore/DuckDB,0.3,20260805,ok,1.681,1.0,0.779736,0.876238,404757
+diabetes_130us,PyDeequ,0.3,20260805,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.3,20260806,ok,0.78,1.0,0.779685,0.876205,404757
+diabetes_130us,Pandera,0.3,20260806,ok,25.752,1.0,0.779685,0.876205,404757
+diabetes_130us,GreatExpectations,0.3,20260806,ok,26.281,1.0,0.668301,0.801176,183180
+diabetes_130us,SodaCore/DuckDB,0.3,20260806,ok,2.365,1.0,0.779685,0.876205,404757
+diabetes_130us,PyDeequ,0.3,20260806,unavailable,,,,,0
+diabetes_130us,ZTLF (ours),0.3,20260807,ok,1.27,1.0,0.779764,0.876256,404757
+diabetes_130us,Pandera,0.3,20260807,ok,24.58,1.0,0.779764,0.876256,404757
+diabetes_130us,GreatExpectations,0.3,20260807,ok,27.115,1.0,0.668369,0.801225,183180
+diabetes_130us,SodaCore/DuckDB,0.3,20260807,ok,1.615,1.0,0.779764,0.876256,404757
+diabetes_130us,PyDeequ,0.3,20260807,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.01,20260803,ok,2.143,1.0,0.487461,0.655426,309285
+online_retail_ii,Pandera,0.01,20260803,ok,23.465,1.0,0.487461,0.655426,286330
+online_retail_ii,GreatExpectations,0.01,20260803,ok,15.661,1.0,0.315881,0.480106,51456
+online_retail_ii,SodaCore/DuckDB,0.01,20260803,ok,2.402,1.0,0.487461,0.655426,309285
+online_retail_ii,PyDeequ,0.01,20260803,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.01,20260804,ok,2.584,1.0,0.485587,0.653731,309130
+online_retail_ii,Pandera,0.01,20260804,ok,20.389,1.0,0.485587,0.653731,286143
+online_retail_ii,GreatExpectations,0.01,20260804,ok,15.768,1.0,0.313404,0.477239,51410
+online_retail_ii,SodaCore/DuckDB,0.01,20260804,ok,2.301,1.0,0.485587,0.653731,309130
+online_retail_ii,PyDeequ,0.01,20260804,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.01,20260805,ok,2.214,1.0,0.486113,0.654208,309112
+online_retail_ii,Pandera,0.01,20260805,ok,21.626,1.0,0.486113,0.654208,286181
+online_retail_ii,GreatExpectations,0.01,20260805,ok,15.269,1.0,0.314187,0.478146,51390
+online_retail_ii,SodaCore/DuckDB,0.01,20260805,ok,4.013,1.0,0.486113,0.654208,309112
+online_retail_ii,PyDeequ,0.01,20260805,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.01,20260806,ok,2.151,1.0,0.486707,0.654745,309288
+online_retail_ii,Pandera,0.01,20260806,ok,23.4,1.0,0.486707,0.654745,286317
+online_retail_ii,GreatExpectations,0.01,20260806,ok,15.317,1.0,0.314703,0.478744,51443
+online_retail_ii,SodaCore/DuckDB,0.01,20260806,ok,2.4,1.0,0.486707,0.654745,309288
+online_retail_ii,PyDeequ,0.01,20260806,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.01,20260807,ok,4.069,1.0,0.485274,0.653447,309207
+online_retail_ii,Pandera,0.01,20260807,ok,20.857,1.0,0.485274,0.653447,286231
+online_retail_ii,GreatExpectations,0.01,20260807,ok,15.107,1.0,0.313503,0.477355,51418
+online_retail_ii,SodaCore/DuckDB,0.01,20260807,ok,2.347,1.0,0.485274,0.653447,309207
+online_retail_ii,PyDeequ,0.01,20260807,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.05,20260803,ok,2.435,1.0,0.49006,0.657772,445408
+online_retail_ii,Pandera,0.05,20260803,ok,32.821,1.0,0.49006,0.657772,422404
+online_retail_ii,GreatExpectations,0.05,20260803,ok,17.647,1.0,0.317038,0.48144,144924
+online_retail_ii,SodaCore/DuckDB,0.05,20260803,ok,4.67,1.0,0.49006,0.657772,445408
+online_retail_ii,PyDeequ,0.05,20260803,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.05,20260804,ok,2.347,1.0,0.489669,0.65742,445369
+online_retail_ii,Pandera,0.05,20260804,ok,32.339,1.0,0.489669,0.65742,422464
+online_retail_ii,GreatExpectations,0.05,20260804,ok,17.897,1.0,0.316535,0.48086,144687
+online_retail_ii,SodaCore/DuckDB,0.05,20260804,ok,3.951,1.0,0.489669,0.65742,445369
+online_retail_ii,PyDeequ,0.05,20260804,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.05,20260805,ok,2.404,1.0,0.489861,0.657593,445552
+online_retail_ii,Pandera,0.05,20260805,ok,32.361,1.0,0.489861,0.657593,422608
+online_retail_ii,GreatExpectations,0.05,20260805,ok,17.604,1.0,0.316949,0.481338,144855
+online_retail_ii,SodaCore/DuckDB,0.05,20260805,ok,3.126,1.0,0.489861,0.657593,445552
+online_retail_ii,PyDeequ,0.05,20260805,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.05,20260806,ok,2.493,1.0,0.489625,0.65738,445207
+online_retail_ii,Pandera,0.05,20260806,ok,32.329,1.0,0.489625,0.65738,422371
+online_retail_ii,GreatExpectations,0.05,20260806,ok,17.92,1.0,0.316647,0.48099,144568
+online_retail_ii,SodaCore/DuckDB,0.05,20260806,ok,2.736,1.0,0.489625,0.65738,445207
+online_retail_ii,PyDeequ,0.05,20260806,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.05,20260807,ok,2.414,1.0,0.489872,0.657602,445516
+online_retail_ii,Pandera,0.05,20260807,ok,32.003,1.0,0.489872,0.657602,422579
+online_retail_ii,GreatExpectations,0.05,20260807,ok,17.531,1.0,0.316723,0.481078,144657
+online_retail_ii,SodaCore/DuckDB,0.05,20260807,ok,2.644,1.0,0.489872,0.657602,445516
+online_retail_ii,PyDeequ,0.05,20260807,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.1,20260803,ok,3.223,1.0,0.493848,0.661176,629398
+online_retail_ii,Pandera,0.1,20260803,ok,47.184,1.0,0.493848,0.661176,606690
+online_retail_ii,GreatExpectations,0.1,20260803,ok,20.279,1.0,0.319436,0.484201,270906
+online_retail_ii,SodaCore/DuckDB,0.1,20260803,ok,4.381,1.0,0.493848,0.661176,629398
+online_retail_ii,PyDeequ,0.1,20260803,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.1,20260804,ok,2.653,1.0,0.493505,0.660869,628861
+online_retail_ii,Pandera,0.1,20260804,ok,46.884,1.0,0.493505,0.660869,606247
+online_retail_ii,GreatExpectations,0.1,20260804,ok,19.807,1.0,0.319055,0.483763,270812
+online_retail_ii,SodaCore/DuckDB,0.1,20260804,ok,4.689,1.0,0.493505,0.660869,628861
+online_retail_ii,PyDeequ,0.1,20260804,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.1,20260805,ok,2.695,1.0,0.493631,0.660981,628890
+online_retail_ii,Pandera,0.1,20260805,ok,46.677,1.0,0.493631,0.660981,606134
+online_retail_ii,GreatExpectations,0.1,20260805,ok,20.311,1.0,0.318917,0.483605,270745
+online_retail_ii,SodaCore/DuckDB,0.1,20260805,ok,4.996,1.0,0.493631,0.660981,628890
+online_retail_ii,PyDeequ,0.1,20260805,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.1,20260806,ok,2.641,1.0,0.493541,0.660901,628800
+online_retail_ii,Pandera,0.1,20260806,ok,47.385,1.0,0.493541,0.660901,606160
+online_retail_ii,GreatExpectations,0.1,20260806,ok,21.493,1.0,0.319261,0.484,270793
+online_retail_ii,SodaCore/DuckDB,0.1,20260806,ok,3.804,1.0,0.493541,0.660901,628800
+online_retail_ii,PyDeequ,0.1,20260806,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.1,20260807,ok,2.617,1.0,0.493486,0.660851,628795
+online_retail_ii,Pandera,0.1,20260807,ok,46.42,1.0,0.493486,0.660851,606104
+online_retail_ii,GreatExpectations,0.1,20260807,ok,22.022,1.0,0.319102,0.483817,270777
+online_retail_ii,SodaCore/DuckDB,0.1,20260807,ok,3.097,1.0,0.493486,0.660851,628795
+online_retail_ii,PyDeequ,0.1,20260807,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.2,20260803,ok,3.413,1.0,0.500578,0.66718,1040342
+online_retail_ii,Pandera,0.2,20260803,ok,80.678,1.0,0.500578,0.66718,1018371
+online_retail_ii,GreatExpectations,0.2,20260803,ok,26.36,1.0,0.323998,0.489424,555938
+online_retail_ii,SodaCore/DuckDB,0.2,20260803,ok,6.018,1.0,0.500578,0.66718,1040342
+online_retail_ii,PyDeequ,0.2,20260803,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.2,20260804,ok,4.232,1.0,0.500508,0.667118,1040522
+online_retail_ii,Pandera,0.2,20260804,ok,81.72,1.0,0.500508,0.667118,1018374
+online_retail_ii,GreatExpectations,0.2,20260804,ok,26.762,1.0,0.323905,0.489317,556086
+online_retail_ii,SodaCore/DuckDB,0.2,20260804,ok,4.362,1.0,0.500508,0.667118,1040522
+online_retail_ii,PyDeequ,0.2,20260804,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.2,20260805,ok,4.384,1.0,0.500209,0.666852,1039906
+online_retail_ii,Pandera,0.2,20260805,ok,80.854,1.0,0.500209,0.666852,1018050
+online_retail_ii,GreatExpectations,0.2,20260805,ok,26.716,1.0,0.323463,0.488813,555447
+online_retail_ii,SodaCore/DuckDB,0.2,20260805,ok,4.461,1.0,0.500209,0.666852,1039906
+online_retail_ii,PyDeequ,0.2,20260805,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.2,20260806,ok,3.521,1.0,0.500805,0.667382,1041207
+online_retail_ii,Pandera,0.2,20260806,ok,81.865,1.0,0.500805,0.667382,1019217
+online_retail_ii,GreatExpectations,0.2,20260806,ok,26.764,1.0,0.32431,0.48978,556483
+online_retail_ii,SodaCore/DuckDB,0.2,20260806,ok,4.888,1.0,0.500805,0.667382,1041207
+online_retail_ii,PyDeequ,0.2,20260806,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.2,20260807,ok,3.553,1.0,0.500314,0.666946,1040343
+online_retail_ii,Pandera,0.2,20260807,ok,81.847,1.0,0.500314,0.666946,1018271
+online_retail_ii,GreatExpectations,0.2,20260807,ok,28.272,1.0,0.323623,0.488995,555877
+online_retail_ii,SodaCore/DuckDB,0.2,20260807,ok,4.451,1.0,0.500314,0.666946,1040343
+online_retail_ii,PyDeequ,0.2,20260807,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.3,20260803,ok,4.021,1.0,0.506557,0.67247,1513571
+online_retail_ii,Pandera,0.3,20260803,ok,118.176,1.0,0.506557,0.67247,1492689
+online_retail_ii,GreatExpectations,0.3,20260803,ok,33.978,1.0,0.328017,0.493996,885177
+online_retail_ii,SodaCore/DuckDB,0.3,20260803,ok,5.143,1.0,0.506557,0.67247,1513571
+online_retail_ii,PyDeequ,0.3,20260803,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.3,20260804,ok,5.728,1.0,0.506749,0.672639,1512366
+online_retail_ii,Pandera,0.3,20260804,ok,120.234,1.0,0.506749,0.672639,1491392
+online_retail_ii,GreatExpectations,0.3,20260804,ok,34.005,1.0,0.32812,0.494112,884691
+online_retail_ii,SodaCore/DuckDB,0.3,20260804,ok,4.61,1.0,0.506749,0.672639,1512366
+online_retail_ii,PyDeequ,0.3,20260804,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.3,20260805,ok,4.182,1.0,0.506704,0.6726,1512179
+online_retail_ii,Pandera,0.3,20260805,ok,123.383,1.0,0.506704,0.6726,1491221
+online_retail_ii,GreatExpectations,0.3,20260805,ok,37.289,1.0,0.328056,0.49404,885234
+online_retail_ii,SodaCore/DuckDB,0.3,20260805,ok,4.882,1.0,0.506704,0.6726,1512179
+online_retail_ii,PyDeequ,0.3,20260805,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.3,20260806,ok,4.208,1.0,0.506689,0.672586,1512416
+online_retail_ii,Pandera,0.3,20260806,ok,120.428,1.0,0.506689,0.672586,1491522
+online_retail_ii,GreatExpectations,0.3,20260806,ok,35.243,1.0,0.328041,0.494022,885041
+online_retail_ii,SodaCore/DuckDB,0.3,20260806,ok,7.499,1.0,0.506689,0.672586,1512416
+online_retail_ii,PyDeequ,0.3,20260806,unavailable,,,,,0
+online_retail_ii,ZTLF (ours),0.3,20260807,ok,5.971,1.0,0.506705,0.6726,1511814
+online_retail_ii,Pandera,0.3,20260807,ok,122.974,1.0,0.506705,0.6726,1491072
+online_retail_ii,GreatExpectations,0.3,20260807,ok,34.704,1.0,0.328031,0.494011,884505
+online_retail_ii,SodaCore/DuckDB,0.3,20260807,ok,6.083,1.0,0.506705,0.6726,1511814
+online_retail_ii,PyDeequ,0.3,20260807,unavailable,,,,,0
