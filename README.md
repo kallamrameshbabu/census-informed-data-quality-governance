@@ -84,7 +84,7 @@ src/                      Importable modules (profiling, corruption, baselines, 
 notebooks/                Colab notebooks, run in numeric order
 data/raw/                 Two redistributable corpora plus checksums.txt
 outputs/tables/           Every CSV table referenced in the manuscript (T0-T12)
-outputs/figures/          Every figure (Figure1-Figure7), matching manuscript numbering
+outputs/figures/          Figures 1–6 used in the manuscript, plus the threshold-sensitivity figure
 ```
 
 Running the notebooks also creates `outputs/metrics/` (raw, unaggregated
