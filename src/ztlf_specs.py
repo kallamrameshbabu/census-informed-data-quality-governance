@@ -140,8 +140,8 @@ DIABETES_SPEC = DatasetSpec(
 
 
 # ---------------------------------------------------------------------------
-# 3. UCI Online Retail II  -- loaded from the author's Google Drive
-#    Chen, Sain & Guo (2012); NON-COMMERCIAL USE ONLY
+# 3. UCI Online Retail II  -- loaded from Drive; too large to commit to git
+#    Chen, Sain & Guo (2012); CC BY 4.0
 # ---------------------------------------------------------------------------
 def online_retail_spec(path: str) -> DatasetSpec:
     return DatasetSpec(
@@ -165,8 +165,7 @@ def online_retail_spec(path: str) -> DatasetSpec:
             "zero_or_negative_price":
                 lambda d: pd.to_numeric(d["Price"], errors="coerce") <= 0,
         },
-        license_note=("Non-commercial use only (UCI ML Repository, dataset 502; "
-                      "donor Dr. Daqing Chen). NOT redistributable."),
+        license_note="CC BY 4.0 (UCI ML Repository, dataset 502)",
         citation=("Chen D, Sain SL, Guo K. Data mining for the online retail "
                   "industry: A case study of RFM model-based customer "
                   "segmentation using data mining. Journal of Database Marketing "
