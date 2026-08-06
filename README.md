@@ -3,7 +3,7 @@
 Reproducibility artifact for the manuscript *"Census-Informed Data Quality
 Governance for Lakehouse Data Products: Rule Authorship, Evaluation Bias,
 and Downstream Cost,"* submitted to *Information Systems* (Elsevier).
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21813665.svg)](https://doi.org/10.5281/zenodo.21813665)
+
 ## What this is
 
 A portable data-quality pipeline evaluated on three public corpora, testing
@@ -16,9 +16,11 @@ Three results, in brief:
 1. **Scoring detectors against injected-only ground truth understates
    precision by up to 28×** on corpora that already contain defects, worst
    at the low injection rates most benchmarks use.
-2. **Four independent validation tools given identical rules find identical
-   defects.** What separates them is capability and runtime cost, not
-   correctness.
+2. **Given identical rules, three validation engines converge.** The
+   reference gate, Pandera, and Soda Core produce equivalent scored
+   detections; Great Expectations and PyDeequ differ in capability and
+   output semantics. What separates the tools is capability and runtime
+   cost, not correctness of the shared predicates.
 3. **Rule authorship dominates rule enforcement.** Two rule sets differing
    only in whether their author consulted a data profile before writing
    completeness rules produced training corpora differing by two orders of
@@ -83,18 +85,22 @@ data.
 ```
 src/                      Importable modules (profiling, corruption, baselines, downstream)
 notebooks/                Colab notebooks, run in numeric order
-data/raw/checksums.txt    SHA-256 of every input file (Online Retail II not included)
+data/raw/                 Two redistributable corpora plus checksums.txt
 outputs/tables/           Every CSV table referenced in the manuscript (T0-T12)
-outputs/figures/          Every figure (F1-F7), named to match manuscript numbering
-outputs/metrics/          Raw, unaggregated experiment output behind each table
-outputs/logs/             Environment manifests
+outputs/figures/          Every figure (Figure1-Figure7), matching manuscript numbering
 ```
 
-Figure and table files are named `F<n>_description.png` and
-`T<n>_description.csv` to match the numbering used in the manuscript, not
-necessarily the order in which they were generated. See
-`outputs/figures/FIGURE_MAPPING.md` if any renumbering was needed after
-initial generation.
+Running the notebooks also creates `outputs/metrics/` (raw, unaggregated
+experiment output behind each table) and `outputs/logs/` (environment
+manifests) in your own Drive. Those are regenerated on every run and are not
+committed here.
+
+Figure files are named `Figure<n>_description.png` and table files
+`T<n>_description.csv`, matching the numbering used in the manuscript
+directly. Note that the manuscript's figure order is not the order the
+figures were generated in — Section 5.2 (scoring bias) precedes Section 5.3
+(detection coverage) — so the filenames follow the manuscript, not the
+notebooks.
 
 ## Key design decisions
 
