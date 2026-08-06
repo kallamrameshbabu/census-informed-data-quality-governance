@@ -2,24 +2,27 @@
 
 Computed with `sha256sum <file>` (Linux/Colab) or `Get-FileHash <file> -Algorithm SHA256` (Windows).
 
-## Bank Marketing (CC BY 4.0, redistributed in this repository)
+## Bank Marketing (CC BY 4.0, committed to this repository)
 
 ```
 dc8d576e9bda0f41ee891251bd84bab9a39ce576cba715aac08adc2374a01fde  bank.csv
 d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d  bankfull.csv
 ```
 
-## Diabetes 130-US Hospitals (CC BY 4.0, redistributed in this repository)
+## Diabetes 130-US Hospitals (CC BY 4.0, committed to this repository)
 
 ```
 0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df  diabetic_data.csv
 ```
 
-## Online Retail II (non-commercial use only, NOT redistributed)
+## Online Retail II (CC BY 4.0, not committed here due to file size)
 
-Not computed here — this file must be downloaded directly from the UCI
-Machine Learning Repository (https://archive.ics.uci.edu/dataset/502) and
-its checksum recorded locally by the notebook. `ZTLF_01_ingestion_and_census.ipynb`
+Not computed here — at ~1.07 million rows this file exceeds GitHub's
+per-file upload limits, so it is not committed to the repository. It is
+licensed CC BY 4.0 like the other two corpora and can be downloaded
+directly from the UCI Machine Learning Repository
+(https://archive.ics.uci.edu/dataset/502); the notebook records its
+checksum locally on first run. `ZTLF_01_ingestion_and_census.ipynb`
 computes and writes this digest automatically to
 `outputs/tables/T0_dataset_provenance.csv` when it runs, which is the
 authoritative record for whichever copy produced the manuscript's results.
