@@ -71,20 +71,25 @@ the exact versions, JDK, and a fixed random seed used for that run.
 |---|---|---|---|
 | [Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing) | 45,211 | CC BY 4.0 | Yes |
 | [Diabetes 130-US Hospitals](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008) | 101,766 | CC BY 4.0 | Yes |
-| [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) | 1,067,371 | CC BY 4.0 | No |
+| [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) | 1,067,371 | CC BY 4.0 | **No — see below** |
 
-Due to dataset size and repository storage considerations, Online Retail II is not included in this repository. Please download it directly from the UCI Machine Learning Repository and place them in the data/raw/ directory before running the notebooks.
-
-SHA-256 hashes of the datasets are provided for verification.
+All three corpora are licensed CC BY 4.0. Online Retail II is nonetheless
+**not committed to this repository** for a purely practical reason: at
+~1.07 million rows the file exceeds GitHub's per-file upload limits.
+Download it directly from the UCI Machine Learning Repository and place it
+at `data/raw/online_retail_II.csv` (or `.xlsx`; notebook 01 converts it).
+`data/raw/checksums.txt` records the SHA-256 digest of the exact file used
+to produce the results in the manuscript, so you can confirm you have the
+same data.
 
 ## Repository structure
 
 ```
 src/                      Importable modules (profiling, corruption, baselines, downstream)
 notebooks/                Colab notebooks, run in numeric order
-data/raw/                 Two redistributable corpora plus checksums.txt
+data/raw/                 Two of the three corpora plus checksums.txt
 outputs/tables/           Every CSV table referenced in the manuscript (T0-T12)
-outputs/figures/          Figures 1–6 used in the manuscript, plus the threshold-sensitivity figure
+outputs/figures/          Every figure (Figure1-Figure7), matching manuscript numbering
 ```
 
 Running the notebooks also creates `outputs/metrics/` (raw, unaggregated
@@ -125,9 +130,10 @@ If you use this artifact, please cite the manuscript. See `CITATION.cff`.
 ## License
 
 Code in this repository is released under the Apache License 2.0 (see
-`LICENSE`). Bank Marketing and Diabetes 130-US Hospitals data, where
-included, retain their original CC BY 4.0 license from the UCI Machine
-Learning Repository. Online Retail II is not redistributed.
+`LICENSE`). The included Bank Marketing and Diabetes 130-US Hospitals data
+retain their original CC BY 4.0 license from the UCI Machine Learning
+Repository. Online Retail II is also CC BY 4.0 but is not committed here
+because of its file size; see **Data** above.
 
 ## Relationship to a prior repository
 
