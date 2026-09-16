@@ -1,0 +1,54 @@
+# SHA-256 checksums of the input data files
+
+Every number reported in the manuscript is traceable to one of the files
+below. The digests were produced by the ingestion notebook at run time and
+are recorded in `outputs/tables/T0_dataset_provenance.csv`, which is the
+authoritative provenance record; this file is a convenience copy.
+
+Verify with:
+
+    sha256sum <file>                              # Linux / macOS / Colab
+    Get-FileHash <file> -Algorithm SHA256         # Windows PowerShell
+
+
+## Included in this repository (CC BY 4.0)
+
+dc8d576e9bda0f41ee891251bd84bab9a39ce576cba715aac08adc2374a01fde  bank.csv
+d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d  bank-full.csv
+0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df97  diabetic_data.csv
+
+  bank.csv            461,474 bytes   — UCI Bank Marketing, 4,521-row subsample
+  bank-full.csv     4,610,348 bytes   — UCI Bank Marketing, full 45,211 rows
+  diabetic_data.csv 19,159,383 bytes  — UCI Diabetes 130-US Hospitals, 101,766 rows
+
+Note on `bank.csv`: the 4,521-row subsample is profiled in the natural-defect
+census (Figure 1) for completeness but is not used in any experiment. All
+reported Bank Marketing results use `bank-full.csv`.
+
+
+## Not included in this repository (CC BY 4.0, excluded for file size)
+
+826ff6b98210100762f194944aa43a342bfda2371408a3dc41f2e8ed37c010d3  online_retail_II.csv
+
+  online_retail_II.csv  109,192,007 bytes  — UCI Online Retail II, 1,067,371 rows
+
+Online Retail II carries the same CC BY 4.0 licence as the other two corpora.
+It is omitted only because 109 MB exceeds GitHub's practical file limits.
+Download it from https://archive.ics.uci.edu/dataset/502 and place it at
+`data/raw/online_retail_II.csv`.
+
+UCI distributes this dataset as an .xlsx workbook with two sheets
+(2009-2010 and 2010-2011). Notebook 01 converts it: place the .xlsx at
+`data/raw/online_retail_II.xlsx` and the conversion cell merges both sheets
+into the single CSV whose digest is listed above. If your digest differs
+after conversion, check that both sheets were merged and that the
+`_source_sheet` column is present.
+
+
+## A caveat worth reading
+
+A digest mismatch does not always mean the data differs. Bank Marketing is
+distributed semicolon-delimited with quoted fields; opening and re-saving it
+in a spreadsheet application will change the delimiter, the line endings, or
+both, and produce a different digest for identical data. Check the delimiter
+before concluding the file is wrong.
