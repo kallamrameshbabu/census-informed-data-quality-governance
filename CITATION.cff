@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software or its results, please cite the archived artifact and the manuscript below."
+message: "If you use this software or its results, please cite the archived artifact below."
 title: "Census-Informed Data Quality Governance for Lakehouse Data Products: Reproducibility Artifact"
 type: software
 authors:
@@ -11,10 +11,10 @@ repository-code: "https://github.com/kallamrameshbabu/census-informed-data-quali
 identifiers:
   - type: doi
     value: "10.5281/zenodo.21813665"
-    description: "Archived reproducibility artifact"
+    description: "Concept DOI — always resolves to the latest archived release"
 license: Apache-2.0
-version: 1.0.0
-date-released: "2026-08-05"
+version: 1.0.2
+date-released: "2026-08-06"
 keywords:
   - data quality
   - data governance
@@ -23,15 +23,10 @@ keywords:
   - defect injection
   - evaluation methodology
   - reproducibility
-preferred-citation:
-  type: article
-  title: "Census-Informed Data Quality Governance for Lakehouse Data Products: Rule Authorship, Evaluation Bias, and Downstream Cost"
-  authors:
-    - family-names: Kallam
-      given-names: Ramesh Babu
-      orcid: "https://orcid.org/0009-0008-5220-1775"
-  journal: "Information Systems"
-  publisher:
-    name: Elsevier
-  year: 2026
-  status: submitted
+abstract: >-
+  Reproducibility artifact for an empirical study of data-quality gating in
+  lakehouse pipelines. Contains the natural-defect census, a corruption
+  engine whose ground truth is recorded independently of detection logic, a
+  cell-level comparison of four open-source validation tools under identical
+  rules, and a downstream model evaluation with subgroup analysis, across
+  three public UCI corpora.
